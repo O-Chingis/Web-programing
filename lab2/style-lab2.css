@@ -1,0 +1,67 @@
+
+html{scroll-behavior:smooth; transition: ease 4s;}
+h1,h2,h3{color:#f8f8ff; 
+		font-size:50px;
+		font-family: times new roman, serif;
+		background:#3339;
+		padding:50px;}
+.text1{background:#F0E68C; 
+		width:700px;
+		color:#696969; 
+		padding:20px; 
+		border-radius:10px;
+		font-family: luminari, fantasy;
+		font-size: 20px;}
+.text2{background:#F0E68C;
+		color:#696969; 
+		width:700px; 
+		padding:20px; 
+		border-radius:10px; 
+		font-size: 20px;}
+.text3{background:#F0E68C;
+		color:#696969; 
+		width:200px; 
+		padding:15px; 
+		border-radius:5px;
+		font-size: 20px;}
+.text4{background:#F0E68C; 
+		width:700px;
+		color:#696969; 
+		padding:20px; 
+		border-radius:10px;
+		font-size:30px;
+		font-family: times new roman, serif;
+		background:#3339;
+		margin-bottom:40px;}
+footer{color:#f8f8ff; 
+		background:#222; 
+		height:30px; 
+		line-height:30px;
+		width:900px;
+		margin-top:70px;}
+body{background: url(https://wbsdigital.co.za/wp-content/uploads/2020/07/Software-scaled.jpg)center center no-repeat; background-size: cover;}
+iframe, img {border:10px solid#fff; border-radius:10px;}
+.ontop{position:fixed; 
+		background:#CCCCFF;
+		bottom:80px; 
+		right:20px;
+		padding:8px; 
+		border-radius:5px;
+		width:20px}
+.ontop:hover{background:#fff}
+.cols{display: table; width:900px;border-collapse:collapse;}
+.cols-rows{display:table-row;}
+.cols-rows-item{display: table-cell; 
+		width:450px;
+		vertical-align:top;
+		padding: 20px;
+		background:#F0E68C;
+		color:#696969; 
+		border-radius:20px; 
+		margin: 0 15%;}
+.cols-rows .cols-rows-item:first-child{border-right: 2px solid #696969;}
+.cols-rows .cols-rows-item:last-child{border-left: 2px solid #696969;}
+a{color: white; text-decoration: none;}
+h2{margin-top:70px;}
+ul li::marker{content: "-";}
+

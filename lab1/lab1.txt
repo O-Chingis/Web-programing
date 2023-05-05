@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Разработка веб-приложений</title>
+
+<style>
+	html{scroll-behavior:smooth; transition: ease 4s;}
+	h1,h2,h3{
+		color:#f8f8ff; 
+		font-size:50px;
+		font-family: times new roman, serif;
+		background:#3339;
+		padding:50px;}
+	.text1{background:#000000; 
+		width:700px;
+		color:#ffffff; 
+		padding:20px; 
+		border-radius:10px;
+		font-family: luminari, fantasy}
+	.text2{background:#000000;
+		color:#ffffff; 
+		width:700px; 
+		padding:20px; 
+		border-radius:10px;}
+	.text3{background:#000000;
+		color:#ffffff; 
+		width:200px; 
+		padding:15px;
+		border-radius:5px;}
+	.text4{background:#000000; 
+		width:700px;
+		color:#ffffff; 
+		padding:20px; 
+		border-radius:10px;
+		font-size:30px;
+		font-family: times new roman, serif;
+		background:#3339;
+		margin-bottom:40px;}
+	footer{color:#f8f8ff; 
+		background:#222; 
+		height:30px; 
+		line-height:30px;
+		width:900px;
+		margin-top:70px;}
+	body{background: url(https://wbsdigital.co.za/wp-content/uploads/2020/07/Software-scaled.jpg)center center no-repeat;
+		 background-size: cover;}
+	iframe, img {border:10px 
+		solid#fff; 
+		border-radius:10px;}
+	.ontop{position:fixed; 
+		background:#CCCCFF;
+		bottom:80px; 
+		right:20px;
+		padding:8px; 
+		border-radius:5px;
+		width:20px}
+	.ontop:hover{background:#fff}
+	.cols{display: table;
+		 width:900px;
+		 border-collapse:collapse;}
+	.cols-rows{display:table-row;}
+	.cols-rows-item{display: table-cell; 
+		width:450px;
+		vertical-align:top;
+		padding: 20px;
+		background:#000000;
+		color:#ffffff; 
+		border-radius:20px;
+		 margin: 0 15%;}
+	.cols-rows .cols-rows-item:first-child{border-right: 2px solid #ffffff;}
+	.cols-rows .cols-rows-item:last-child{border-left: 2px solid #ffffff;}
+	h2{margin-top:70px;}
+</style>
+
+<META content="html, css, Javascript, jQuery,Angular", name="Introduction">
+<META content"Веб-программирование" name="языки веба">
+
+</head>
+<center>
+<body>
+	<h1>HTML5, CSS3, JavaScript, JQuery, Angular </h1>
+	<header class='text4'>
+	<p><a href='#yakor1'>1.Вступление</p></a>
+	<p><a href='#yakor2'>2.Выбор IDE</p></a>
+	<p><a href='#yakor3'>3.Полезные ссылки</p></a>
+	</header>
+<img src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/155568445/original/ed233c9afd70d135884c965d0649ffb2949e1400/develop-websites-with-html-css-angular-and-javascript.jpg' width='660'></img>
+<p></p><hr>
+	<header class='text1' id='yakor1'><p><b>Web-программирование</b> - это раздел программирования, ориентированный на 
+разработку веб-приложений (программ, обеспечивающих функционнирование динамических сайтов
+ Всемирной паутины.)
+Языки веб-программирования — это языки, которые в основном предназначены для работы с веб-технологиями. Языки веб-программирования можно условно разделить на две пересекающиеся группы: клиентские и серверные.</p> </header>
+	<p align='left'>
+	<header class='cols'>
+		<header class='cols-rows'>
+			<header class='cols-rows-item'>
+		<b>Клиентские</b><br>  Как следует из названия, программы на клиентских языках обрабатываются на стороне пользователя, как правило, их выполняет браузер. Это и создает главную проблему клиентских языков — результат выполнения программы (скрипта) зависит от браузера пользователя. То есть, если пользователь запретил выполнять клиентские программы, то они исполняться не будут, как бы ни желал этого программист. Кроме того, может произойти такое, что в разных браузерах или в разных версиях одного и того же браузера один и тот же скрипт будет выполняться по-разному. С другой стороны, если программист возлагает надежды на серверные программы, то он может упростить их работу и снизить нагрузку на сервер за счет программ, исполняемых на стороне клиента, поскольку они не всегда требуют перезагрузку (генерацию) страницы.</p></header> 
+			<header class='cols-rows-item'>
+		<b>Серверные</b><br> Когда пользователь дает запрос на какую-либо страницу (переходит на неё по ссылке или вводит адрес в адресной строке своего браузера), то вызванная страница сначала обрабатывается на сервере, то есть выполняются все программы, связанные со страницей, и только потом возвращается к посетителю по сети в виде файла. Этот файл может иметь расширения HTML, PHP, ASP, ASPX, Perl, SSI, XML, DHTML, XHTML.Работа программ уже полностью зависима от сервера, на котором расположен сайт, и от того, какая версия того или иного языка поддерживается. Важной стороной работы серверных языков является возможность организации непосредственного взаимодействия с системой управления базами данных (или СУБД) — сервером базы данных, в которой упорядоченно хранится информация, которая может быть вызвана в любой момент.
+			</header>
+		</header>
+	</header>
+	<h2 id='yakor2'>Блокнот как замена всех IDE</h2>
+	<iframe width="794" height="447" src="https://www.youtube.com/embed/fi_IGYW5_ic" title="Создание HTML сайта в блокноте" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+	<header class ='text2'>
+	<ol>
+		<li>Использование блокнота не требует дополнительной установки.</li> 
+		<li>Простота - самое важное, если вы не разрабатываете сложные проекты с созависимостями, где требуется прямой мониторинг изменений</li>
+	 </ol>
+	 </header>
+
+	<h3 id='yakor3'>Ссылки на полезные ресурсы: </h3>
+	<a href='https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5' target ='_blank' class ='text3'>Wiki</a>
+	<a href='https://books.ifmo.ru/file/pdf/878.pdf'class ='text3'>Учебное пособие НИУ ИТМО</a>
+<br><hr>
+	<footer>
+		Все права не защищены 2023.
+		Весь использованный материал является собственностью третьих лиц.
+	</footer>
+<br>
+	<a class='ontop' href='#'>⇑</a>
+</body>
+</center>
+
+</html>

@@ -4,30 +4,33 @@
 <head>
 <title>Разработка веб-приложений</title>
 
-<style><!--Внедренный CSS-->
+<style> 
 	html{scroll-behavior:smooth; transition: ease 4s;}
-	h1,h2,h3{color:#f8f8ff; 
+	h1,h2,h3{
+		color:#f8f8ff; 
 		font-size:50px;
 		font-family: times new roman, serif;
 		background:#3339;
 		padding:50px;}
 	.text1{background:#000000; 
-		width:700px;color:#ffffff;
+		width:700px;
+		color:#ffffff;
 		padding:20px; 
 		border-radius:10px;
-		font-family: luminari, fantasy}<!--Селектор по классу>
+		font-family: luminari, fantasy} 
 	.text2{background:#000000;
 		color:#ffffff; 
 		width:700px; 
 		padding:20px;
-		 border-radius:10px;}
+		border-radius:10px;}
 	.text3{background:#000000;
 		color:#ffffff;
 		width:200px; 
 		padding:15px; 
 		border-radius:5px;}
 	.text4{background:#000000; 
-		width:700px;color:#ffffff; 
+		width:700px;
+		color:#ffffff; 
 		padding:20px; 
 		border-radius:10px;
 		font-size:30px;
@@ -55,22 +58,25 @@
 		border-collapse:collapse;}
 	.cols-rows{display:table-row;}
 	.cols-rows-item{display: table-cell; 
-		width:450px;vertical-align:top;
-		padding: 20px;background:#000000;
+		width:450px;
+		vertical-align:top;
+		padding: 20px;
+		background:#000000;
 		color:#ffffff; 
 		border-radius:20px; 
 		margin: 0 15%;}
 	.cols-rows .cols-rows-item:first-child{border-right: 2px solid #ffffff;}
 	.cols-rows .cols-rows-item:last-child{border-left: 2px solid #ffffff;}
-	a{color: white; text-decoration: none;}<!--селектор по элементу>
+	a{color: white; text-decoration: none;} 
 	h2{margin-top:70px;}
 </style>
 
 <META content="html, css, Javascript, jQuery,Angular", name="Introduction">
 <META content"Веб-программирование" name="языки веба">
 
-<!--<link rel="stylesheet" href="/home/stud/web-progr/style-lab2.css">--><!--Внешний способ встраивания CSS, связывание с внешним файлом происходит благодаря тегу link-->
-<link rel="stylesheet" href="/home/stud/web-progr/style-lab2-altern.css">
+<!-- <link rel="stylesheet" href="/home/stud/web-progr/Web-programing/lab2/style-lab2.css"> -->
+<!-- Внешний способ встраивания CSS, связывание с внешним файлом происходит благодаря тегу link -->
+<!-- <link rel="stylesheet" href="/home/stud/web-progr/Web-programing/lab2/style-lab2-altern.css" -->
 
 </head>
 <center>
@@ -78,9 +84,9 @@
 <h1>HTML5, CSS3, JavaScript, JQuery, Angular </h1>
 <header class='text4'>
 <ul>
-	<li><a href='#yakor1'>Вступление</li>
-	<li><a href='#yakor2'>Выбор IDE</li>
-	<li><a href='#yakor3'>Полезные ссылки</li>
+	<li><a href='#yakor1'>Вступление</a></li>
+	<li><a href='#yakor2'>Выбор IDE</a></li>
+	<li><a href='#yakor3'>Полезные ссылки</a></li>
 </ul>
 </header>
 <img src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/155568445/original/ed233c9afd70d135884c965d0649ffb2949e1400/develop-websites-with-html-css-angular-and-javascript.jpg' width='660'></img>

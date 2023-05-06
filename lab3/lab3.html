@@ -51,7 +51,7 @@ html{scroll-behavior:smooth; transition: ease 4s;}
 		width:900px;
 		margin-top:0px;
 		position: absolute; 
-		left:190px;}
+		left:520px;}
 	body{background: url(https://wbsdigital.co.za/wp-content/uploads/2020/07/Software-scaled.jpg)center center no-repeat; background-size: cover;}
 iframe, img {border:10px solid#fff; border-radius:10px;}
 	.ontop{position:fixed; 
@@ -78,18 +78,32 @@ iframe, img {border:10px solid#fff; border-radius:10px;}
 	.cols-rows .cols-rows-item:last-child{border-left: 2px solid #ffffff;}
 	a{color: white; text-decoration: none;}
 	h2{margin-top:70px;}
-	.icons li{float:left; 
-		list-style: none;
+	.icons li{
+		float:left;
 		margin-right:30px;
+		list-style: none;
 		width:100%;
-		width:200px;}
+		width:200px;
+		}
+		
+	.parent{
+		overflow:hidden;
+		position: relative;
+		width:500px;height:600px;}
+	.child{background:#000000;
+		color:#ffffff; 
+		width:200px; 
+		padding:10px; 
+		border-radius:5px;float:right;position: absolute;top:64%;left:50%;}
+	
 </style>
 
 <META content="html, css, Javascript, jQuery,Angular", name="Introduction">
 <META content"Веб-программирование" name="языки веба">
 
-<!--<link rel="stylesheet" href="/home/stud/web-progr/style-lab2.css">--><!--Внешний способ встраивания CSS, связывание с внешним файлом происходит благодаря тегу link-->
-<!--<link rel="stylesheet" href="/home/stud/web-progr/style-lab2-altern.css">-->
+<!-- <link rel="stylesheet" href="/home/stud/web-progr/Web-programing/lab2/style-lab2.css"> -->
+<!-- Внешний способ встраивания CSS, связывание с внешним файлом происходит благодаря тегу link -->
+<!-- <link rel="stylesheet" href="/home/stud/web-progr/Web-programing/lab2/style-lab2-altern.css"> -->
 
 </head>
 <center>
@@ -98,9 +112,9 @@ iframe, img {border:10px solid#fff; border-radius:10px;}
 <header class='text4'>
 <p class='nvgt'>™</p>
 <ul>
-	<li><a href='#yakor1'>Вступление</li>
-	<li><a href='#yakor2'>Выбор IDE</li>
-	<li><a href='#yakor3'>Полезные ссылки</li>
+	<li><a href='#yakor1'>Вступление</a></li>
+	<li><a href='#yakor2'>Выбор IDE</a></li>
+	<li><a href='#yakor3'>Полезные ссылки</a></li>
 </ul>
 </header>
 <img src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/155568445/original/ed233c9afd70d135884c965d0649ffb2949e1400/develop-websites-with-html-css-angular-and-javascript.jpg' width='660'></img>
@@ -109,14 +123,23 @@ iframe, img {border:10px solid#fff; border-radius:10px;}
 разработку веб-приложений (программ, обеспечивающих функционнирование динамических сайтов
  Всемирной паутины.)
 Языки веб-программирования — это языки, которые в основном предназначены для работы с веб-технологиями. Языки веб-программирования можно условно разделить на две пересекающиеся группы: клиентские и серверные.</p> </div>
-<div class='icons'>
-<ul>
-	<li><img src='https://itproger.com/img/courses/1476977240.jpg' width='150'></img></li>
-	<li><img src='https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg' width='150'></img></li>
-	<li><img src='https://itproger.com/img/courses/1476977754.jpg' width='150'></img></li>
-	<li><img src='https://wshop.fi/eng/wp-content/uploads/2021/03/featured_jquery-scaled.jpg' width='150'></img></li>
-	<li><img src='https://www.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular.png' width='150'></img></li>
-</ul>
+<div class='parent'>
+<div class='child'>
+Styling Languages
+<p>CSS Frameworks</p>
+<p>Programming Languages</p>
+<p>JS Frameworks</p>
+</div>
+<div class='icons'><p style='background:#000000;color:#ffffff; width:200px; padding:15px; border-radius:5px;'>Frontend Development</p>
+<p style='background:#000000;color:#ffffff; width:150px; padding:10px; border-radius:5px;'>(Mini giude)</p>
+	<ol>
+	<li><img src='https://itproger.com/img/courses/1476977240.jpg' width='150' height ='100'></img></li>
+	<li><img src='https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg' width='150'height ='100'></img></li>
+	<li><img src='https://itproger.com/img/courses/1476977754.jpg' width='150'height ='100'></img></li>
+	<li><img src='https://wshop.fi/eng/wp-content/uploads/2021/03/featured_jquery-scaled.jpg' width='150'height ='100'></img></li>
+	<li><img src='https://www.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular.png' width='150'height ='100'></img></li>
+	</ol>
+</div>
 </div>
 <p align='left'>
 <div class='cols'>

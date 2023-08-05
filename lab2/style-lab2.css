@@ -5,12 +5,12 @@ h1,h2,h3{color:#f8f8ff;
 		font-family: times new roman, serif;
 		background:#3339;
 		padding:50px;}
-.text1{background:#F0E68C; 
+.text1{background:#F0E68C; /*Задание 3. Измените оформление цвета и фон в некоторых элементах*/
 		width:700px;
 		color:#696969; 
 		padding:20px; 
 		border-radius:10px;
-		font-family: luminari, fantasy;
+		font-family:  Didot, serif;/*Задание 2. Измените оформление текста в некоторых элементах*/
 		font-size: 20px;}
 .text2{background:#F0E68C;
 		color:#696969; 
@@ -55,8 +55,8 @@ iframe, img {border:10px solid#fff; border-radius:10px;}
 		width:450px;
 		vertical-align:top;
 		padding: 20px;
-		background:#F0E68C;
-		color:#696969; 
+		background:#F0E68C;/*Задание 2. Измените оформление текста в некоторых элементах*/
+		color:#696969; /*Задание 3. Измените оформление цвета и фон в некоторых элементах*/
 		border-radius:20px; 
 		margin: 0 15%;}
 .cols-rows .cols-rows-item:first-child{border-right: 2px solid #696969;}

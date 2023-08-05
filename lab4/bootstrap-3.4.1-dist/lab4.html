@@ -2,123 +2,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Разработка веб-приложений</title>
-
-<style>
-html{scroll-behavior:smooth; transition: ease 4s;}
-	h1,h2,h3{color:#f8f8ff; 
-		font-size:50px;font-family: times new roman, serif;
-		background:#3339;
-		padding:50px;}
-	.text1{background:#000000; 
-		width:700px;color:#ffffff; 
-		padding:20px; 
-		border-radius:10px;
-		font-family: Arial, sans-serif;}
-	.text2{background:#000000;
-		color:#ffffff; 
-		width:700px; 
-		padding:20px; 
-		border-radius:10px;}
-	.text3{background:#000000;
-		color:#ffffff; 
-		width:200px; 
-		padding:15px; 
-		border-radius:5px;}
-	.text4{background:#000000; 
-		width:700px;
-		color:#ffffff; 
-		padding:20px; 
-		border-radius:10px;
-		font-size:30px;
-		font-family: times new roman, serif;
-		background:#3339;
-		margin-bottom:40px;
-		position: relative;}
-	.nvgt{position: absolute; 
-		font-size:20px;
-		top:0;left:0;}
-	.text5{background:#000000;
-		color:#ffffff; 
-		width:200px; 
-		padding:15px; 
-		border-radius:5px;  
-		bot:10px;}
-	footer{color:#ffffff; 
-		background-color:#222; 
-		height:30px; 
-		line-height:30px;
-		width:900px;
-		margin-top:0px;
-		position: absolute; /*Пункт задания 1. Абсолютная позиция*/
-		left:520px;}
-	body{background: url(https://wbsdigital.co.za/wp-content/uploads/2020/07/Software-scaled.jpg)center center no-repeat; background-size: cover;}
-iframe, img {border:10px solid#fff; border-radius:10px;}
-	.ontop{position:fixed; /*Позиция фиксированная для пункта 2.*/
-		background:#CCCCFF;
-		bottom:80px; 
-		right:20px;
-		padding:8px; 
-		border-radius:5px;
-		width:20px}
-	.ontop:hover{background:#fff}
-	.cols{display: table;
-		width:900px;
-		border-collapse:collapse;}
-	.cols-rows{display:table-row;}
-	.cols-rows-item{display: table-cell; 
-		width:450px;
-		vertical-align:top;
-		padding: 20px;
-		background:#000000;
-		color:#ffffff; 
-		border-radius:20px; 
-		margin: 0 15%;}
-	.cols-rows .cols-rows-item:first-child{border-right: 2px solid #ffffff;}
-	.cols-rows .cols-rows-item:last-child{border-left: 2px solid #ffffff;}
-	a{color: white; text-decoration: none;}
-	h2{margin-top:70px;}
-	.icons li{
-		float:left;
-		margin-right:30px;
-		list-style: none;
-		width:100%;
-		width:200px;
-		}
-		
-	.parent{
-		overflow:hidden;
-		position: relative;/*position relative + position absolute. Пункт задания 3*/
-		width:500px;height:600px;}
-	.child{background:#000000;
-		color:#ffffff; 
-		width:200px; 
-		padding:10px; 
-		border-radius:5px;float:right;position: absolute;top:64%;left:50%;} /* колонки float пункт задания 4 */
-	
-</style>
-
-<META content="html, css, Javascript, jQuery,Angular", name="Introduction">
-<META content="Веб-программирование" name="языки веба">
-
+	<title>Разработка веб-приложений</title>
+	<META charset="UTF-8">
+	<META content="html, css, Javascript, jQuery,Angular", name="Introduction">
+	<META content="Веб-программирование", name="языки веба">
+	<META name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="/home/madara/prog/Web-programing/lab4/bootstrap-3.4.1-dist/css/style.css">
 </head>
 <center>
 <body>
 <h1>HTML5, CSS3, JavaScript, JQuery, Angular </h1>
 <header class='text4'>
-<p class='nvgt'>™</p>
-<ul>
-	<li><a href='#yakor1'>Вступление</a></li>
-	<li><a href='#yakor2'>Выбор IDE</a></li>
-	<li><a href='#yakor3'>Полезные ссылки</a></li>
-</ul>
+	<p class='nvgt'>™</p>
+		<ul>
+			<li><a href='#yakor1'>Вступление</a></li>
+			<li><a href='#yakor2'>Выбор IDE</a></li>
+			<li><a href='#yakor3'>Полезные ссылки</a></li>
+		</ul>
 </header>
 <img src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/155568445/original/ed233c9afd70d135884c965d0649ffb2949e1400/develop-websites-with-html-css-angular-and-javascript.jpg' width='660'></img>
 <p></p><hr>
-<div class='text1' id='yakor1'><p><b>Web-программирование</b> - это раздел программирования, ориентированный на 
-разработку веб-приложений (программ, обеспечивающих функционнирование динамических сайтов
- Всемирной паутины.)
-Языки веб-программирования — это языки, которые в основном предназначены для работы с веб-технологиями. Языки веб-программирования можно условно разделить на две пересекающиеся группы: клиентские и серверные.</p> </div>
+<div class='text1' id='yakor1'><p><b> Web-программирование </b> - это раздел программирования, ориентированный на 
+разработку веб-приложений (программ, обеспечивающих функционнирование динамических сайтов Всемирной паутины). Языки веб-программирования — это языки, которые в основном предназначены для работы с веб-технологиями. Языки веб-программирования можно условно разделить на две пересекающиеся группы: клиентские и серверные.</p> </div>
 <div class='parent'>
 	<div class='child'>
 	  Styling Languages
@@ -126,16 +32,16 @@ iframe, img {border:10px solid#fff; border-radius:10px;}
 	<p>Programming Languages</p>
 	<p>JS Frameworks</p>
 	</div>
-	<div class='icons'><p style='background:#000000;color:#ffffff; width:200px; padding:15px; border-radius:5px;'>Frontend Development</p>
-	<p style='background:#000000;color:#ffffff; width:150px; padding:10px; border-radius:5px;'>(Mini giude)</p>
-		<ol>
-			<li><img src='https://itproger.com/img/courses/1476977240.jpg' width='150' height ='100'></img></li>
-		<li><img src='https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg' width='150'height ='100'></img></li>
-		<li><img src='https://itproger.com/img/courses/1476977754.jpg' width='150'height ='100'></img></li>
-		<li><img src='https://wshop.fi/eng/wp-content/uploads/2021/03/featured_jquery-scaled.jpg' width='150'height ='100'></img></li>
-		<li><img src='https://www.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular.png' width='150'height ='100'></img></li>
-		</ol>
-	</div>
+		<div class='icons'><p style='background:#000000;color:#ffffff; width:200px; padding:15px; border-radius:5px;'>Frontend Development</p>
+		<p style='background:#000000;color:#ffffff; width:150px; padding:10px; border-radius:5px;'>(Mini giude)</p>
+			<ol>
+				<li><img src='https://itproger.com/img/courses/1476977240.jpg' width='150' height ='100'></img></li>
+				<li><img src='https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg' width='150'height ='100'></img></li>
+				<li><img src='https://itproger.com/img/courses/1476977754.jpg' width='150'height ='100'></img></li>
+				<li><img src='https://wshop.fi/eng/wp-content/uploads/2021/03/featured_jquery-scaled.jpg' width='150'height ='100'></img></li>
+				<li><img src='https://www.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular.png' width='150'height ='100'></img></li>
+			</ol>
+		</div>
 </div>
 <p align='left'>
 <div class='cols'>
@@ -161,11 +67,12 @@ iframe, img {border:10px solid#fff; border-radius:10px;}
 <a href='https://html5css.ru/colors/1-kody-cvetov-html.php' target='_blank' class='text5'>HTML5CSS3</a>
 <br><hr>
 	<footer>
-Все права не защищены 2023.
-Весь использованный материал является собственностью третьих лиц.
+		Все права не защищены 2023.
+		Весь использованный материал является собственностью третьих лиц.
 	</footer>
 <br>
 <a class='ontop' href='#'>⇑</a>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </center>
 

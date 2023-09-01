@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Разработка веб-приложений</title>
+	<META charset="UTF-8">
+	<META content="html, css, Javascript, jQuery,Angular", name="Introduction">
+	<META content="Веб-программирование", name="языки веба">
+	<META name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="/home/madara/prog/Web-programing/lab7/css/sass-style.css"><!-- Подключенно последним и поэтому имеет высший приоритет-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top"><!-- Навигационная панель фиксированная с прокруткой. Добавить контейнер для выравнивания всего по середине-->
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Главная <span class="sr-only">(current)</span></a></li>
+				<li><a href="#authors">Об авторах</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Подробнее <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#down">Полезные ссылки</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Обратная связь</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Регистрация</a></li>
+					</ul>
+			</li>
+			</ul>
+			<button class="btn btn-success pull-right" aria-label="Left Align">
+  			  <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+				<a href="input-format.html"><i class="bi bi-person-plus"></i> Регистрация</a>
+			</button>
+		</div>
+	</nav> 
+	<header>
+		<div class="container">
+			<div class ="row">
+				<div class col="12">
+					<h1 class="text-center text white">HTML5, CSS3, Bootstrap-3, JavaScript, JQuery, Angular</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class ="about">
+		<div class="container">
+			<div class ="row align-items-center">
+				<div class="col-lg-8 col-sm-12">
+					<h2 class="text white"><b>Web-программирование</b> - это раздел программирования, ориентированный на 
+					разработку веб-приложений (программ, обеспечивающих функционнирование динамических сайтов Всемирной паутины). Языки веб-программирования — это языки, которые в основном предназначены для работы с веб-технологиями. Языки веб-программирования можно условно разделить на две пересекающиеся группы: <b>клиентские и серверные.</b></h2>
+				</div>
+				<div class="col-lg-4 col-sm-12 text-center">
+					<br><br><br><img src="https://img1.akspic.ru/crops/8/9/2/3/6/163298/163298-yava-yazyk_programmirovaniya-korporaciya_oracle-komplekt_razrabotki_java-napisat_odin_raz_zapustit_gde_ugodno-1920x1080.jpg" class ="img-responsive img-thumbnail image-front pull-right">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="definition">
+		<div class="container">
+			<div class ="row align-items-center">
+				<div class="col-lg-6 col-sm-12">
+					<center><b><p>Клиентские<p></b></center><p> Как следует из названия, программы на клиентских языках обрабатываются на стороне пользователя, как правило, их выполняет браузер. Это и создает главную проблему клиентских языков — результат выполнения программы (скрипта) зависит от браузера пользователя. То есть, если пользователь запретил выполнять клиентские программы, то они исполняться не будут, как бы ни желал этого программист. Кроме того, может произойти такое, что в разных браузерах или в разных версиях одного и того же браузера один и тот же скрипт будет выполняться по-разному. С другой стороны, если программист возлагает надежды на серверные программы, то он может упростить их работу и снизить нагрузку на сервер за счет программ, исполняемых на стороне клиента, поскольку они не всегда требуют перезагрузку (генерацию) страницы.</p><input type="button" id ="button" value="knopochka"><!-- задание 2 -->
+				</div> 
+				<div class="col-lg-6 col-sm-12">
+					<center><b><p>Серверные</p></b></center><br><br><p>Когда пользователь дает запрос на какую-либо страницу (переходит на неё по ссылке или вводит адрес в адресной строке своего браузера), то вызванная страница сначала обрабатывается на сервере, то есть выполняются все программы, связанные со страницей, и только потом возвращается к посетителю по сети в виде файла. Этот файл может иметь расширения HTML, PHP, ASP, ASPX, Perl, SSI, XML, DHTML, XHTML.Работа программ уже полностью зависима от сервера, на котором расположен сайт, и от того, какая версия того или иного языка поддерживается. Важной стороной работы серверных языков является возможность организации непосредственного взаимодействия с системой управления базами данных (или СУБД) — сервером базы данных, в которой упорядоченно хранится информация, которая может быть вызвана в любой момент.</p><input type="button" onclick="alert('click')" value="knopochka_number_dwa"><!-- задание 2 -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class = "section">
+			<div class="container">
+				<div class ="row">
+					<div class col="12">
+						<h2 class="text-center text black text-uppercase">Roadmap</h2>
+					</div>
+				</div>
+				<div class = "row align-items-center md-5">
+					<div class ="col-xs-6 col-sm-4 text-center"> <!-- text center - выравнивает надпись под изображнием. col-xs-6 col-sm-4 - дефолтные настройки с сайта официального от bootstrap. 3 блока по 4 колонки-->
+						<img src='https://itproger.com/img/courses/1476977240.jpg' class ="img-responsive img-thumbnail"></img>
+						<h3><a href='#yakor1'><button type="button" class="btn btn-default btn-lg">HTML</button></a></h3>
+						<img src='https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg' class ="img-responsive img-thumbnail"></img>
+						<h3><a href='#yakor2'><button type="button" class="btn btn-default btn-lg">CSS</button></a></h3>
+					</div>	
+					<div class ="col-xs-6 col-sm-4 text-center">
+						<img src='https://itproger.com/img/courses/1476977754.jpg' class ="img-responsive img-thumbnail"></img>
+						<h3><a href='#yakor3'><button type="button" class="btn btn-default btn-lg">JS</button></a></h3>
+						<img src='https://wshop.fi/eng/wp-content/uploads/2021/03/featured_jquery-scaled.jpg' class ="img-responsive img-thumbnail"></img>
+						<h3><a href='#yakor4'><button type="button" class="btn btn-default btn-lg">jQuery</button></a></h3>
+					</div>
+					<div class ="col-xs-6 col-sm-4 text-center">
+						<img src='https://www.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular.png' class ="img-responsive img-thumbnail "></img>
+						<h3><a href='#yakor5'><button type="button" class="btn btn-default btn-lg">Angular</button></a></h3>
+					</div>		
+				</div>
+			</div>
+	</section>
+	<section class="html-def" id='yakor1'>
+		<div class="container">
+			<div class="row">
+					<div class= "col-lg-7 col-sm-12">
+						<h3>
+							HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора. 
+						</h3>
+						<h3>
+							Элементы HTML являются строительными блоками HTML страниц. С помощью HTML разные конструкции, изображения и другие объекты, такие как интерактивная веб-форма, могут быть встроены в отображаемую страницу. HTML предоставляет средства для создания заголовков, абзацев, списков, ссылок, цитат и других элементов. Элементы HTML выделяются тегами, записанными с использованием угловых скобок. Такие теги, как <"img /" и <"input />", напрямую вводят контент на страницу. Другие теги, такие как <"p>", окружают и оформляют текст внутри себя и могут включать другие теги в качестве подэлементов. Браузеры не отображают HTML-теги, но используют их для интерпретации содержимого страницы.В HTML можно встроить программный код на языке программирования JavaScript, для управления поведением и содержанием веб-страниц. Также включение CSS в HTML позволяет задавать внешний вид и макет страницы. 
+						</h3>
+						<h3>
+							Разработан человеком по имени Сэр Тимоти Джон Бе́рнерс-Ли OM (англ. Sir Timothy John «Tim» Berners-Lee; род. 8 июня 1955 года, Лондон) — создатель URI, URL, HTTP, HTML и Всемирной паутины (совместно с Робертом Кайо) и действующий глава Консорциума Всемирной паутины. Автор концепции семантической паутины, множества других разработок в области информационных технологий. 
+						</h3>
+					</div>
+					<div class= "col-lg-5 col-sm-12 text-center">
+						<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200424201843/W3C.png" class="img-responsive img-thumbnail image-authors pull-right">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/274px-HTML.svg.png" class="img-responsive img-thumbnail">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/240px-Sir_Tim_Berners-Lee_%28cropped%29.jpg" class="img-responsive img-thumbnail">
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="css-def"id='yakor2'>
+		<div class="container">
+			<div class="row">
+					<div class= "col-lg-7 col-sm-12">
+						<h3>
+							CSS (/siːɛsɛs/ англ. Cascading Style Sheets «каскадные таблицы стилей») — формальный язык декорирования и описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки (чаще всего HTML или XHTML). Также может применяться к любым XML-документам, например, к SVG или XUL.
+						</h3>
+						<h3>
+							CSS используется создателями веб-страниц для задания цветов, шрифтов, стилей, расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц. Основной целью разработки CSS является ограждение и отделение описания логической структуры веб-страницы (которое производится с помощью HTML или других языков разметки) от описания внешнего вида этой веб-страницы (которое теперь производится с помощью формального языка CSS). Такое разделение может увеличить доступность документа, предоставить большую гибкость и возможность управления его представлением, а также уменьшить сложность и повторяемость в структурном содержимом.
+
+							Кроме того, CSS позволяет представлять один и тот же документ в различных стилях или методах вывода, таких как экранное представление, печатное представление, чтение голосом (специальным голосовым браузером или программой чтения с экрана) или при выводе устройствами, использующими шрифт Брайля
+						</h3>
+						<h3>
+							CSS — одна из широкого спектра технологий, одобренных консорциумом W3C и получивших общее название «стандарты Web». В 1990-х годах стала ясна необходимость стандартизировать Web, создать какие-то единые правила, по которым программисты и веб-дизайнеры проектировали бы сайты. Так появились языки HTML 4.01 и XHTML, и стандарт CSS.
+							В начале 1990-х различные браузеры имели свои стили для отображения веб-страниц. HTML развивался очень быстро и был способен удовлетворить все существовавшие на тот момент потребности по оформлению информации, поэтому CSS не получил тогда широкого признания.
+							Термин «каскадные таблицы стилей» был предложен Хоконом Ли в 1994 году. Совместно с Бертом Босом он стал развивать CSS.
+							В отличие от многих существовавших на тот момент языков стиля, CSS использует наследование от родителя к потомку, поэтому разработчик может определить разные стили, основываясь на уже определённых ранее стилях.
+							В середине 1990-х Консорциум Всемирной паутины (W3C) стал проявлять интерес к CSS, и в декабре 1996 года была издана рекомендация CSS1. 
+						</h3>
+					</div>
+					<div class= "col-lg-5 col-sm-12 text-center">
+						<img src="https://cf2.ppt-online.org/files2/slide/l/lxRCWE1eG4h6O8Prvpfa5YJZKSukg7o0jzV2btmdA/slide-7.jpg" class="img-responsive img-thumbnail image-authors pull-right">
+						<img src="https://cdn.lynda.com/course/504266/504266-636598375885456259-16x9.jpg" class="img-responsive img-thumbnail image-authors1">
+						<img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/HTML-and-CSS.png" class="img-responsive img-thumbnail image-authors1">
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="JS-def"id='yakor3'>
+		<div class="container">
+			<div class="row">
+					<div class= "col-lg-7 col-sm-12">
+						<h3>
+							JavaScript (/ˈdʒɑːvɑːˌskrɪpt/; аббр. JS /ˈdʒeɪ.ɛs./) — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript (стандарт ECMA-262).
+							JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
+							Основные архитектурные черты: динамическая типизация, слабая типизация, автоматическое управление памятью, прототипное программирование, функции как объекты первого класса.
+							На JavaScript оказали влияние многие языки, при разработке была цель сделать язык похожим на Java. Языком JavaScript не владеет какая-либо компания или организация, что отличает его от ряда языков программирования, используемых в веб-разработке
+						</h3>
+						<h3>
+							Самая первая реализация JavaScript была создана Бренданом Эйхом (англ. Brendan Eich) в компании Netscape, и с тех пор обновляется, чтобы соответствовать ECMA-262 Edition 5 и более поздним версиям. Этот движок называется SpiderMonkey и реализован на языке C/C++. Движок Rhino создан Норрисом Бойдом (англ. Norris Boyd) и реализован на языке Java. Как и SpiderMonkey, Rhino соответствует ECMA-262 Edition 5. 
+						</h3>
+						<h3>
+							Для обеспечения высокого уровня абстракции и достижения приемлемой степени кросс-браузерности, при разработке веб-приложений используются библиотеки JavaScript. Они представляют собой набор многократно используемых объектов и функций. Среди известных JavaScript библиотек можно отметить React.js, Vue.js, Ember.js, Adobe Spry, AngularJS, Svelte[en], Dojo, Extjs, jQuery, Mootools, Prototype, Qooxdoo и Underscore. 
+						</h3>
+					</div>
+					<div class= "col-lg-5 col-sm-12 text-center">
+						<img src="https://dan-it.com.ua/wp-content/uploads/2019/01/javascript.png" class="img-responsive img-thumbnail image-authors pull-right">
+						<img src="https://images.squarespace-cdn.com/content/v1/58d20c79725e25b221549193/1521098258210-W9FBV72SMJJX3LESUA7Z/js.jpg?format=2500w" class="img-responsive img-thumbnail image-authors2">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/274px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg" class="img-responsive img-thumbnail image-authors2">
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="Jquery-def" id='yakor4'>
+		<div class="container">
+			<div class="row">
+					<div class= "col-lg-7 col-sm-12">
+						<h3>
+							jQuery ([dʒeɪ kwɪəri]) — набор функций JavaScript, фокусирующийся на взаимодействии JavaScript и HTML. Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими. Также библиотека jQuery предоставляет удобный API для работы с AJAX. Разработка jQuery ведётся командой добровольцев на пожертвования
+						</h3>
+						<h3>
+							Точно так же, как CSS отделяет визуализацию от структуры HTML, JQuery отделяет поведение от структуры HTML. Например, вместо прямого указания на обработчик события нажатия кнопки управление передаётся JQuery, которая идентифицирует кнопки и затем преобразует его в обработчик события клика. Такое разделение поведения и структуры также называется принципом ненавязчивого JavaScript.
+							Библиотека jQuery содержит функциональность, полезную для максимально широкого круга задач. Тем не менее, разработчиками библиотеки не ставилась задача совмещения в jQuery функций, которые подошли бы всюду, поскольку это привело бы к большому коду, бо́льшая часть которого не востребована. Поэтому была реализована архитектура компактного универсального ядра библиотеки и плагинов[5]. Это позволяет собрать для ресурса именно ту JavaScript-функциональность, которая на нём была бы востребована. 
+						</h3>
+						<h3>
+							HTML был одной из первых вещей, которую Джон Резиг освоил, когда он только начал заниматься программированием. Резиг программировал на QBasic, когда один его знакомый показал ему, как создать веб-страницу (используя Angelfire), а также основы HTML. Отец подарил ему на Рождество две книги по HTML. Именно тогда, когда он только начал программировать на Visual Basic, HTML и веб-дизайн очень заинтересовали его.
+							Но страсть к JavaScript пришла значительно позже, примерно в 2004 году. Тогда Резиг получал степень в области компьютерных наук и работал на полставки в местной фирме Brand Logic. Он занимался дизайном сайта, в котором создавался пользовательский скроллинг. Джон был разочарован и расстроен, особенно потому, что использовал код других разработчиков, после чего решил серьёзно изучить JavaScript. Изучив, пришёл к выводам, что JavaScript — это простой, но изящный язык, невероятно мощный для решения многих задач. В течение следующей пары лет Джон создал множество различных JavaScript-приложений, прежде чем закончить создание jQuery. Основной целью создания jQuery Резиг видел возможность закодировать многоразовые куски кода, которые позволят упростить JavaScript и использовать их так, чтобы не беспокоиться о кросс-браузерных вопросах. Библиотека была представлена общественности на компьютерной конференции BarCamp в Нью-Йорке в 2006 году. 
+						</h3>
+					</div>
+					<div class= "col-lg-5 col-sm-12 text-center">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/2560px-JQuery-Logo.svg.png" class="img-responsive img-thumbnail image-authors4 pull-right">
+						<img src="https://cdn.educba.com/academy/wp-content/uploads/2019/05/what-is-jquery-1.png" class="img-responsive img-thumbnail image-authors3">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Jresig.png/274px-Jresig.png" class="img-responsive img-thumbnail image-authors3">
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="Angular-def" id='yakor5'>
+		<div class="container">
+			<div class="row">
+					<div class= "col-lg-7 col-sm-12">
+						<h3>
+							Angular (версия 2 и выше) — открытая и свободная платформа для разработки веб-приложений, написанная на языке TypeScript, разрабатываемая командой из компании Google, а также сообществом разработчиков из различных компаний. Angular — полностью переписанный фреймворк от той же команды, которая написала AngularJS.
+						</h3>
+						<h3>
+							Изначально создавался как вторая версия AngularJS. Angular 2 был переписан с нуля на TypeScript, обладает иной архитектурой и не является обратно совместимым с AngularJS, в связи с чем для предотвращения путаницы было решено развивать его как отдельный фреймворк, нумерация версий которого начинается с 2. 
+						</h3>
+						<h3>
+							Google разработала Angular 14 сентября 2016 года 
+						</h3>
+					</div>
+					<div class= "col-lg-5 col-sm-12 text-center">
+						<img src="https://binarapps.com/wp-content/uploads/2022/02/Angular_Versions_History.png" class="img-responsive img-thumbnail image-authors4 pull-right">
+						<img src="https://www.ngdevelop.tech/wp-content/uploads/2019/09/Angular-Version-History_1.png" class="img-responsive img-thumbnail image-authors4">
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="authors-site" id='authors'>
+		<div class="container">
+				<div class ="row">
+					<div class col="12">
+						<h2 class="text-center text black text-uppercase">Об авторах</h2>
+					</div>
+				</div>
+			<div class="row align-items-center">
+					<div class= "col-lg-6 col-sm-12">
+						<div class="well">
+						<h3>
+							Сайт создавался исключительно в рамках курса "Веб-программирование". Это довольно забавная дисциплина для изучения и является отдушиной для студентов, особенно после таких предметов как системное программирование или методы анализа данных. Это потрясающая, увлекательная дисциплина с колосальным количеством источников и огромной поддержкой от различных ютюберов помогающих тебе во всем. Языки и синтаксис, конечно, иногда кажутся награможденными, но в то же время все предельно просто и понятно, а возникающие проблемы решаются в считанные секунды(благо гугл не забанили на территории РФ) 
+						</h3>
+						<h3>
+							Основателями сайта являются студент группы КИ21-16\1Б, а также сооснователь, ментор и преподователь Погребников Александр Константинович
+						</h3>
+						</div>
+					</div>
+					<div class= "col-lg-3 col-sm-12 text-center">
+						<img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=sTDjF8kAAAAJ&citpid=1" class="img-responsive img-thumbnail ">
+						<h3><div class="well">Старший преподаватель - Погребников А.К</div></h3>
+						
+					</div>
+					<div class= "col-lg-3 col-sm-12 text-center">
+						
+						<img id="myImg" src="/home/madara/Downloads/me.jpg" class="img-responsive img-thumbnail ">
+						<button onclick="changeImage()">Change Image</button><!-- Задание 3 -->
+						<h3><div class="well">Студент -<br>Очиров Ч.С</div></h3>
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class ="links">
+		<div class ="container">
+			<div class="row">
+				<div class ="col-lg-12 col-sm-12">
+					<table class="table">
+	   					 <thead class="thead-default">
+	      				 	<tr>
+					            <th></th>
+					            <th>Имя</th>
+					            <th>Фамилия</th>
+					            <th>Должность</th>
+	        				</tr>
+	    				</thead>
+				    <tbody>
+				        <tr>
+				            <th scope="row">1</th>
+				            <td>Чингис</td>
+				            <td>Очиров</td>
+				            <td>Студент</td>
+				        </tr>
+				        <tr>
+				            <th scope="row">2</th>
+				            <td>Погребников</td>
+				            <td>Александр</td>
+				            <td>Константинович</td>
+				        </tr>
+				        <tr>
+				            <th scope="row">3</th>
+				            <td>Владимир</td>
+				            <td>Владимирович</td>
+				            <td>Президент РФ</td>
+				        </tr>
+				    </tbody>
+				</table>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class = "footer text-center" id='down'>
+			<div class = "row">
+					<div class col="12">
+							<h3 id='yakor3'>Ссылки на полезные ресурсы: </h3>
+								<a href='https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5' target ='_blank' class ='text1'>Wiki</a>
+								<a href='https://books.ifmo.ru/file/pdf/878.pdf'class ='text1'>Учебное пособие НИУ ИТМО</a>
+								<a href='https://html5css.ru/colors/1-kody-cvetov-html.php' target='_blank' class='text1'>HTML5CSS3</a><br><br>
+							<footer>
+							Все права не защищены 2023.
+							Весь использованный материал является собственностью третьих лиц.
+							</footer>
+					</div>				
+			</div>
+	</section>
+	<a class='ontop' href='#'>UP</a>
+	<!--<script>
+		$(document).ready(function(){
+		alert('Ваша версия jQuery ' + jQuery.fn.jquery);
+		});
+	</script> проверка на подключение jQuery-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="/home/madara/prog/Web-programing/lab7/js/JavaScript.js"></script>
+	<script type="text/javascript"> document.addEventListener("DOMContentLoaded", function(){ alert('EverythingLoaded');});</script><!-- задание 2 -->
+</body>
+</html>

@@ -1,0 +1,96 @@
+$font-stack: Courier, monospace;
+$bg-color: #ffffff;
+$bg-color1: #000000;
+$needed-color-once: #f8f8ff;
+$needed-color-once1:f6f6f6;
+$pg: 50px;
+$pg2: 100px 0;
+$pg3: 10px;
+$ht: 300px;
+$wt: 360px;
+$ps: 250px;
+$fs: 22px;
+
+
+html{scroll-behavior:smooth; transition: ease 4s;}
+
+h1{
+	color:$needed-color-once; 
+	font-size:50px;font-family:$font-stack;
+	background:$bg-color1;
+	padding:$pg;}
+h2{
+	padding:15px;
+	color:$bg-color1;
+	font-size:30px; font-family:$font-stack;}
+h3{
+	color:$bg-color1;
+	font-size:25px; font-family:$font-stack;}
+
+header{ 
+	padding: $pg2;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );}
+body{
+	background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-kapin&psig=AOvVaw0Yd2DrX9JTiwtx_WYoiSZo&ust=1691407583867000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKi355T3x4ADFQAAAAAdAAAAABAD)center center no-repeat; background-size: cover;
+	}
+
+section{
+	padding: $pg2;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );}
+td{
+	color:$bg-color1;
+	font-size:$fs; font-family:$font-stack;}
+th{
+	color:$bg-color1;
+	font-size:$fs; font-family:$font-stack;}
+
+.ontop{/*knopka*/
+		position:fixed; 
+		background:$bg-color1;
+		bottom:100px; 
+		right:$pg3;
+		padding:$pg3; 
+		border-radius:5px;
+		width:80px;}
+.image-front{/*отдельный класс для картинки на фронте с текстом описания Web*/
+	width:550px; 
+	height:$ps;
+}
+.image-authors{
+	width:450px; 
+	height:350px;
+}
+.image-authors1{
+	width:350px; 
+	height:$ps;
+}
+.image-authors2{
+	width:$wt; 
+	height:$ht;
+}
+.image-authors3{
+	width:$wt; 
+	height:$ht;
+}
+.image-authors4{
+	width:500px; 
+	height:$ht;
+}
+img{
+	display: inline-block;
+	padding:10px;
+	width:$ps; 
+	height:150px;}
+p{/*text config*/
+	padding:15px;
+	color:$bg-color1;
+	font-size:$fs; font-family: Didot, serif;
+}
